@@ -50,6 +50,9 @@ define({
 			// Non-API code
 			/\/(?:tests|nls|demos)\//,
 
+			// Defines a "module" called "commandLineArgs" except it's defined inline rather than as a file called commandLineArgs.js
+			/util\/build/,
+
 			// Overwrites dojo.declare
 			/dojox\/lang\/(?:docs|typed)/
 		]
