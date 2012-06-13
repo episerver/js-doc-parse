@@ -39,7 +39,7 @@ define({
 	// Configuration data for module ID resolution and path remapping within the parser.
 	// TODO: Document
 	environmentConfig: {
-		basePath: '',
+		basePath: '../trunk',
 		packages: {
 			dojo: 'dojo',
 			dijit: 'dijit',
