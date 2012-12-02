@@ -48,7 +48,7 @@ define({
 		},
 		excludePaths: [
 			// Non-API code
-			/\/(?:tests|nls|demos)\//,
+			/\/(?:tests|nls|demos|build)\//,
 
 			// Defines a "module" called "commandLineArgs" except it's defined inline rather than as a file called commandLineArgs.js
 			/util\/build/,
